@@ -1,0 +1,136 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19038593900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search the dealer name",
+        "description": "",
+        "id": "search-functionality;search-the-dealer-name",
+        "after": [
+          {
+            "result": {
+              "duration": 3186574801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 345057200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on homepage",
+            "match": {
+              "location": "BuySteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 432594199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {
+              "location": "BuySteps.iMouseHoverOnBuySellTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3722781399,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click ‘Find a Dealer’ link",
+            "match": {
+              "location": "FindDealerSteps.iClickFindADealerLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59706991200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see the dealer lists",
+            "match": {
+              "location": "FindDealerSteps.iSeeTheDealerLists(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "3 Point Motors Epping"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "4WD Specialist Group"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "5 Star Auto Trade"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "A\u0026S Autos Pty Ltd"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "A1 Motors Company Glenorchy"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Amac Motor Group"
+                ],
+                "line": 14
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "cardealer.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@cardealer"
+      }
+    ]
+  }
+]
